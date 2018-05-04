@@ -1,4 +1,3 @@
-
 body {
   font-family: sans-serif;
   font-weight: 100;
@@ -21,7 +20,6 @@ p {
   margin-right: auto;
 }
 
-
 h4 {
   font-weight: 400;
   font-size: 1.4em;
@@ -37,6 +35,7 @@ h4 {
   text-transform: uppercase;
   font-size: 1.25em;
 }
+
 .interestCaption, .projectCaption {
   text-align: center;
 }
@@ -47,8 +46,8 @@ h4 {
   border: 0;
   background:  #336699;
   width: 90%;
-
 }
+
 .style2 {
   border-style: solid;
   height: 2px;
@@ -92,6 +91,7 @@ a:link, a:active, a:hover, a:default, a:visited {
   color: white;
   width: 90%;
 }
+
 .experiences {
   padding: 1px;
   margin: 5px;
@@ -100,8 +100,7 @@ a:link, a:active, a:hover, a:default, a:visited {
   margin-right: auto;
 }
 
-
-  .footer {
+.footer {
   text-align: center;
   padding-bottom: 5px;
 }
@@ -112,7 +111,6 @@ a:link, a:active, a:hover, a:default, a:visited {
   max-width: 90%;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .project {
