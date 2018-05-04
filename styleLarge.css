@@ -1,0 +1,24 @@
+body {
+  background-color: #336699;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+.container {
+  max-width: 900px;
+}
+
+.fab , .fas {
+  padding: 5px;
+}
+
+.headerBox, .myPicture {
+  padding-left: 150px;
+  float:left;
+}
+
+.footerLinks {
+  font-size: 1.5em;
+}
