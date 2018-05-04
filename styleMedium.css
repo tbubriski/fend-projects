@@ -1,0 +1,55 @@
+.myProfilePicture {
+  width: 100px;
+  height: 100px;
+}
+
+.container {
+  background-color: white;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #336699;
+  flex-wrap: wrap;
+}
+
+p {
+  width: 100%;
+}
+
+.headerBox, .myPicture {
+  padding-left: 150px;
+  padding-bottom: 10px;
+  float:left;
+}
+
+.myProjects, .myinterests {
+  text-align: center;
+  max-width: 900px;
+  width: 80%;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+.project {
+  float: left;
+  max-width: 290px;
+  width: calc((100% - 20px)/3);
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: #f2faff;
+  height: 300px;
+}
+
+.project:last-of-type, .interest:last-of-type {
+  margin-right: 0px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footerLinks {
+  font-size: 1.1em;
+}
