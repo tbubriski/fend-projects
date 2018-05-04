@@ -2,17 +2,18 @@
 body {
   font-family: sans-serif;
   font-weight: 100;
-  /* background-color: #ecf2f9; */
   background-color: white;
   width: 100%;
+  color: #336699;
 }
 
 img {
   display: block;
-  width: 200px;
+  max-width: 150px;
   margin-left: auto;
   margin-right: auto;
 }
+
 p {
   text-align: left;
   max-width: 90%;
@@ -20,9 +21,6 @@ p {
   margin-right: auto;
 }
 
-.fas .fab {
-  color: black;
-}
 
 h4 {
   font-weight: 400;
@@ -35,8 +33,12 @@ h4 {
 }
 
 .subTitle {
+  text-align: center;
   text-transform: uppercase;
   font-size: 1.25em;
+}
+.interestCaption, .projectCaption {
+  text-align: center;
 }
 
 .style1 {
@@ -44,141 +46,75 @@ h4 {
   height: 2px;
   border: 0;
   background:  #336699;
-  width: 95%;
+  width: 90%;
+
 }
 .style2 {
   border-style: solid;
-  height: 1px;
+  height: 2px;
   border: 0;
   background:  #79a6d2;
-  width: 95%;
+  width: 90%;
 }
-/* .container {
-  background-color: white;
-  max-width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  color: #336699;
-} */
 
 .header {
-  /* background-color: blue; */
   text-align: center;
-  padding-top: 50px;
 }
 
 .myProfilePicture {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
-  padding: 10px;
-  /* outline: 2px solid #336699; */
-  border: 1px solid #79a6d2;
-  /* box-shadow: 0 0 0 10px white, 0 0 0 12px #336699; */
+  padding: 5px;
+  border: 1px solid #336699;
 }
 
 a:link, a:active, a:hover, a:default, a:visited {
-  /* text-decoration: none; */
-  color: black;
-}
-
-.myPicture {
+  color: #336699;
 }
 
 .myName {
   font-size: 2em;
-  padding: 15px;
+  padding: 5px;
 }
 
 .myTitle {
   font-size: 1.25em;
 }
+
 .mySocialMedia {
-  padding-top: 5px;
+  font-size: 1.6em;
   text-align: center;
-  /* background-color: red; */
-}
-.myBio  {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  /* background-color: green; */
 }
 
+.subTitle {
+  background-color: #336699;
+  color: white;
+  width: 90%;
+}
 .experiences {
-  padding: 20px;
-  margin: 50px;
-  max-width: 400px;
+  padding: 1px;
+  margin: 5px;
+  max-width: 90%;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid #79a6d2;
-  /* box-shadow: 0 0 0 10px white, 0 0 0 12px #336699; */
-  /* background-color: orange; */
 }
 
-.interests {
-  padding: 20px;
-  margin: 50px;
-  max-width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  border: 1px solid #79a6d2;
-  /* box-shadow: 0 0 0 10px white, 0 0 0 12px #336699; */
-  /* background-color: yellow; */
-}
 
-.interest {
+  .footer {
   text-align: center;
-  text-transform: uppercase;
-  padding: 5px;
-
-
-}
-.moreAboutMe {
-  padding: 20px;
-  margin: 50px;
-  max-width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  border: 1px solid #79a6d2;
-  /* box-shadow: 0 0 0 10px white, 0 0 0 12px #336699; */
-  /* background-color: purple; */
+  padding-bottom: 5px;
 }
 
 .myProjects {
-
-  width: 400px;
+  padding: 1px;
+  margin: 5px;
+  max-width: 90%;
   margin-left: auto;
   margin-right: auto;
-  /* background-color: white; */
+
 }
 
 .project {
-  max-width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin: 50px;
-  border: 1px solid #336699;
-
-  /* background-color: brown; */
-}
-
-.footer {
-  text-align: center;
-  padding: 5px;
-  margin: 5px;
-}
-
-div.removeUnderline a {
-  text-decoration: none;
-}
-
-.moreText {
-  display: inline;
-}
-.moreText {
-  display: none;
+  padding-bottom: 25px;
 }
